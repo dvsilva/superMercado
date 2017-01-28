@@ -1,22 +1,18 @@
 package controle;
 
+import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;
+import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
+import java.sql.Statement;
 
-import javax.swing.JFrame;
 import javax.swing.JOptionPane;
-
-import com.mysql.jdbc.Connection;
-import com.mysql.jdbc.ResultSetMetaData;
-import com.mysql.jdbc.Statement;
 
 import face.JanelaLoginNoSistema;
 import face.JanelaPrincipal;
 
 public class Login {
-	
-	
 	
 	public Login() {
 		super();
